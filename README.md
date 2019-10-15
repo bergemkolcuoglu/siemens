@@ -1,5 +1,5 @@
 # Face Recognition
-Projeyi kısaca özetleyecek olursam, OpenCV, Keras, Tensorflow, Dlib ve face_recognition kütüphanelerini kullanarak, kişilerin tek fotoğrafını eğiterek, webcam üzerinden gerçek zamanlı yüz tanıma ve duygu tanıma işlemlerini gerçekleştirmektedir. Uygulama kapatıldığında, son frame içinde kalan kişilere güvenlik amaçlı otomatik e-mail gönderir.
+Uygulamayı kısaca özetleyecek olursam; OpenCV, Keras, Tensorflow, Dlib ve face_recognition kütüphanelerini kullanarak, kişilerin tek fotoğrafını eğiterek, webcam üzerinden gerçek zamanlı yüz ve duygu tanıma işlemlerini gerçekleştirmektedir. Uygulama kapatıldığında, ekranda en son görülen kişilere güvenlik amaçlı otomatik e-mail gönderir.
 
 Uygulamadan ekran görüntüleri:
 
