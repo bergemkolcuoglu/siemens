@@ -32,10 +32,8 @@ def send_mail(name):
 
     try:
        s = smtplib.SMTP('smtp.gmail.com', 25)
-       #s.ehlo()
        s.starttls()
-       s.login("pythonproject@gmail.com","password")
-       #s.sendmail(me, toaddr, "Merhabaaa")
+       s.login("your_gmail_account@gmail.com","your_password")
        s.send_message(msg)
        s.quit()
        print("Mail successfully sent to "+name)
